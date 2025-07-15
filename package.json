@@ -1,15 +1,15 @@
 {
   "name": "film2bytes",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve film2bytes",
+    "build": "ng build film2bytes",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:film2bytes": "node dist/film2bytes/server/server.mjs"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
